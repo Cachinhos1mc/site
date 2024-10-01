@@ -1,4 +1,20 @@
 body {
-    background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(207,181,206,1) 27%, rgba(125,199,217,1) 100%);
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(207, 181, 188, 1) 27%, rgba(125, 199, 217, 1) 100%);
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    color: black;
+    font-size: 40px;
+     text-transform: uppercase;
+     justify-content: center;
+     align-items: center;
+     gap: 28px;
 }
